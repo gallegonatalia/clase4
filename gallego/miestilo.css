@@ -1,0 +1,242 @@
+body
+{
+	margin: auto;
+	width: 90%;
+	background-color: #C9669F;
+
+}
+
+
+header
+{
+	width: 100%;
+	background-color: #5FFBF1;
+	color: #86A8E7;
+	text-align: center;
+	font-size: 200%;
+	padding-top: 0.1em;
+	padding-bottom: 0.02em;
+}
+
+
+h2
+{
+   text-align: center;
+   color: #000000;
+   font-family: Times New Roman
+}
+
+h3
+{
+	width: 100%;
+	font-size: 160%;
+	text-align: center;
+   color: #000000;
+   font-family: Times New Roman
+}   
+h4
+{
+	width: 100%;
+	font-size: 150%;
+	text-align: center;
+   color: #000000;
+   font-family: Times New Roman
+}   
+h5
+{
+	width: 100%;
+	font-size: 150%;
+	text-align: left;
+   color: #000000;
+   font-family: Times New Roman
+}   
+h6
+{
+	width: 100%;
+	font-size: 100%;
+	text-align: center;
+   color: #000000;
+   font-family: georgia
+}   
+
+main {
+	width: 100%;
+	}
+	
+section {
+	width: 100%;
+	font-size: 101%;
+	background-color: #BFD9DF;
+	float: right;
+	color: #000;
+	font-family: Times New Roman;
+	
+}
+.fotoproducto {
+	width: 26%;
+	height: 20em;
+	font-size: 120%;
+	background-color: #BB4CC6;
+	float: right;
+	color: #000000;
+	padding-left: 3em;
+	border-radius: 1em;
+	margin: 0.6em;
+}
+
+
+.fotoproducto img {	
+	border-radius: 0.1em;
+	width: 80%;
+	}
+	
+.fotoubicacion {
+	float: center;
+}
+
+nav
+{ 
+   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+   color: #000000;
+   background-color: #62A5AC;
+   width: 100%;
+   text-align: center;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   
+}
+
+nav a:link,a:visited,a:hover,a:active { 
+	color: #000000;
+	border: 2.5px #01DFD7 solid;
+	background-color: #BFD9DF;
+	padding: 0.9em;
+	text-decoration: none;
+	}
+
+.actual {
+	font-weight: bold;
+	}
+	
+footer {
+	text-align: center;
+    color: #00000;
+    background-color: #62A5AC;
+    width: 100%;
+    clear: both;
+	font-family: georgia;
+
+}
+.css-button-retro--rose {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+  z-index: 0;
+}
+.css-button-retro--rose:hover:after {
+  top: 0;
+  left: 0;
+}
+.css-button-retro--rose:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #ff6392;
+}
+ form {
+
+    background-color: #5FFBF1;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+	max-width: 400px;
+
+    width: 100%; 
+
+    margin: 20px auto; 
+
+}
+
+
+label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #555;
+
+}
+
+
+
+input, textarea {
+
+    width: 90%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+
+
+input[type="number"], input[type="text"], input[type="email"] {
+
+    background-color:#BB4CC6;
+
+}
+
+
+
+button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: #BB4CC6;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+
+
+button:hover {
+
+    background-color: #4cae4c;
+
+}
